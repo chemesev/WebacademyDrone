@@ -1,5 +1,5 @@
 #
-image: docker.lab.int:5000/droneworkdocker
+image: ubuntu
 #image:
 #  registry_host: docker.lab.int:5000
 #  registry_protocol: http
@@ -11,8 +11,8 @@ image: docker.lab.int:5000/droneworkdocker
 #  image_name: droneworkdocker
 #
 branches:
-  - deploy
-#  - master
+#  - deploy
+  - master
 script:
   - ./.drone/get_code.sh
   - ./.drone/build.sh
@@ -33,5 +33,5 @@ deploy:
 notify:  
   email:
     recipients:
-      - user@lab.int
+      - darkf3ss@gmail.com
 
