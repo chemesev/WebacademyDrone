@@ -14,10 +14,10 @@ branches:
 #  - deploy
   - master
 script:
-  - ./.drone/get_code.sh
+#  - ./.drone/get_code.sh
   - ./.drone/build.sh
-  - ./.drone/deploy.sh
-  - ./.drone/stop_docker.sh
+#  - ./.drone/deploy.sh
+#  - ./.drone/stop_docker.sh
 #  - ./.drone/rm_vfs.sh
 deploy:
   bash:
