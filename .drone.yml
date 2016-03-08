@@ -33,9 +33,4 @@ deploy:
 notify:
   email:
     recipients:
-<<<<<<< HEAD
-      - user@lab.int
-=======
       - darkf3ss@gmail.com
-
->>>>>>> origin/master
