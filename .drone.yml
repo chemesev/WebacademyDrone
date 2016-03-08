@@ -1,5 +1,5 @@
 #
-image: docker.lab.int:5000/droneworkdocker
+image: ubuntu
 #image:
 #  registry_host: docker.lab.int:5000
 #  registry_protocol: http
@@ -33,4 +33,9 @@ deploy:
 notify:
   email:
     recipients:
+<<<<<<< HEAD
       - user@lab.int
+=======
+      - darkf3ss@gmail.com
+
+>>>>>>> origin/master
