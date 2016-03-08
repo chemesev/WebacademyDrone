@@ -1,5 +1,5 @@
 #
-image: ubuntu
+image: chemesev/droneio
 #image:
 #  registry_host: docker.lab.int:5000
 #  registry_protocol: http
